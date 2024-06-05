@@ -1,0 +1,104 @@
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+img{
+
+border:4px solid black;
+border-radius:70%;
+height:80px;
+width:auto;
+}
+
+.navbar{
+background-color:black;
+border:solid;
+width:auto;
+}
+.navbar ul{
+display:flex;
+justify-content:left;
+}
+
+.navbar ul li {
+font-size:20px;
+padding:20px;
+color:white;
+list-style-type:none;
+}
+
+.form
+{
+padding:30px;
+background-color:whitesmoke;
+border:2px solid black;
+border-radius:10px;
+width:600px;
+height:auto;
+position:relative;
+top:10%;
+left:30%;
+right:30%;
+bottom:auto;
+}
+
+table tr td {
+padding:8px;
+font-size:18px;
+}
+
+input text{
+radius:10px;
+
+}
+.button{
+display:flex;
+justify-content:end;
+}
+
+input{
+border-radius:5px;
+height:30;
+width:250px;
+text-align:center;
+font-size:16px;
+
+}
+
+lable{
+font-size:17px;
+font-weight:solid;
+
+}
+
+textarea{
+border-radius:5px;
+border: 2px solid;
+font-size:16px;
+
+}
+
+input[type=submit]{
+padding:5px;
+border:2px solid black;
+box-shadow:1px 4px 4px 1px gray;
+color:white;
+font-size:14px;
+font-weight:700;
+background-color:red;
+border-radius:5px;
+height:40px;
+width:100px;
+}
+
+select{
+border-radius:5px;
+border:2px solid;
+height:30;
+width:230px;
+text-align:center;
+font-size:16px;
+
+}
+
